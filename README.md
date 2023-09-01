@@ -1,4 +1,4 @@
-# Sequences in Python 
+# Sequences in Python
 
 This repository explores the fundamental concepts of sequences in Python, covering data types like lists, tuples, ranges, and strings. It also includes a function to print the Fibonacci sequence.
 
@@ -14,7 +14,9 @@ Fibonacci Sequence Example
 Running the Code
 Contributing
 License
-Key Concepts
+
+# Key Concepts
+
 Sequence: A data structure that stores elements in a specific order.
 Index: The position of an element in a sequence, starting from 0.
 Iterable: A data structure that can be iterated (looped) through.
@@ -32,13 +34,14 @@ Sequences in Python support a variety of operations to manipulate and work with 
 
 Checking if an element is in a sequence using x in s.
 Concatenating sequences with s + s2.
-Repeating a sequence with s * n.
+Repeating a sequence with s \* n.
 Accessing elements by index using s[i].
 Slicing sequences with s[i:j] and s[i:j:k].
 Finding the length of a sequence with len(s).
 Finding minimum and maximum values using min(s) and max(s).
 Finding the index of an element with s.index(x).
 Counting occurrences of an element with s.count(x).
+
 # Lists
 
 Lists are one of the most commonly used data structures in Python. They are mutable, versatile, and can store elements of various data types. Some common list operations include sorting, adding, and removing elements.
@@ -62,7 +65,9 @@ The provided code includes a function called print_fibonacci(length) that demons
 python
 Copy code
 print_fibonacci(9)
+
 # => [0, 1, 1, 2, 3, 5, 8, 13, 21]
+
 # Running the Code
 
 To execute and test the code, you can use the Python shell to run code interactively. Additionally, the code includes unit tests written with pytest. You can run the tests using the following command:
@@ -88,21 +93,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Range Docs](https://docs.python.org/3/library/stdtypes.html#ranges)
 - [String Methods][string methods]
 
-[common sequence operations]:
-  https://docs.python.org/3/library/stdtypes.html#common-sequence-operations
-[string methods]: https://www.w3schools.com/python/python_ref_string.asp
-[fibonacci sequence]: https://www.mathsisfun.com/numbers/fibonacci-sequence.html
-
-
-## Resources
-
-- [Common Sequence Operations][common sequence operations]
-- [Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
-- [More on Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
-- [Range Docs](https://docs.python.org/3/library/stdtypes.html#ranges)
-- [String Methods][string methods]
-
-[common sequence operations]:
-  https://docs.python.org/3/library/stdtypes.html#common-sequence-operations
+[common sequence operations]: https://docs.python.org/3/library/stdtypes.html#common-sequence-operations
 [string methods]: https://www.w3schools.com/python/python_ref_string.asp
 [fibonacci sequence]: https://www.mathsisfun.com/numbers/fibonacci-sequence.html
