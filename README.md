@@ -4,16 +4,16 @@ This repository explores the fundamental concepts of sequences in Python, coveri
 
 # Table of Contents
 
-Key Concepts
-Operations on Sequences
-Lists
-Tuples
-Ranges
-Strings
-Fibonacci Sequence Example
-Running the Code
-Contributing
-License
+Key Concepts,
+Operations on Sequences,
+Lists,
+Tuples,
+Ranges,,
+Strings,
+Fibonacci Sequence Example,
+Running the Code,
+Contributing,
+License.
 
 # Key Concepts
 
